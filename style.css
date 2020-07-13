@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+}
+/* nav bar styling */
+.navDiv{
+    display: grid;
+    background: white;
+}
+.navHeader{
+    background-color: cornflowerblue;
+    color: white;
+    display: inline;
+    text-align: center;
+    padding-left: 5px;   
+}
+h1{
+    font-size: x-large !important;
+    padding: 0px;
+    margin: 0px !important;
+   }
+.navLink{    
+    cursor: pointer;    
+}
+a:hover {
+    color: red;
+  }
+.subHeader{
+    display: block !important;
+    
+}
+.navbar{
+    padding: 0px !important;
+}
+
+.navbar-light .navbar-brand {
+   color: cornflowerblue !important;
+}
+.navFix{
+    margin-bottom: 0px !important;
+}
+
+/* main styling */
+h5{
+    text-align: center;
+}
+.theo{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+}
+.about{
+    list-style: none
+}
+.aboutMe{
+        
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutMeH4{
+    color: cornflowerblue;  
+    padding-bottom: 20px;    
+}
+.aboutDiv{
+    float: left;
+    margin-right: 10px;
+}
+.mainDiv{
+    border: 2px solid;
+    width: 70%;
+    float: right;
+    border-radius: 10px;
+    min-height: 250px;
+    border-color: lightblue;
+    padding: 10px;
+    box-shadow: 0 0 8px #1976D2;
+}
+.info{
+    display: none;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.mainContact{
+    padding: 10px !important;
+    background-color: whitesmoke; 
+    display: inline-block;
+}
+body{
+    background-color: #d8d5d5 !important;
+    height: 100%;
+    
+ }
+
+.stickToFooter{
+    background: cornflowerblue;
+    height: 10px;
+    position: relative;
+    
+}
+.resume{
+    clear: both;
+    display: block;
+    text-align: center;
+    color:#8E24AA;
+    padding-top: 20px;
+}
+/* portfolio css*/
+.carousel {
+    position: relative;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolio {
+    padding-top: 30px;
+}
+.proImage {
+    height: 300px !important;
+    width: auto !important;    
+    margin-left: auto;
+    margin-right: auto;
+}
+.proName {
+    color: #1976D2;
+    font-size: medium;
+    text-align: center;
+}
+.proInfo {
+    color: crimson;
+    font-size: medium;
+}
+/* contact */
+.contactInfo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid;
+    width: 70%;    
+    border-radius: 10px;
+    min-height: 250px;
+    border-color: lightblue;    
+    box-shadow: 0 0 8px #1976D2;
+    background: white;
+}
+.contactHeader{
+    color: tomato;
+    text-align: center;
+}
+.forHr{
+    display: block;
+    border: solid 1px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.address{
+    text-align: center;
+    
+}
+.left{
+    float: left;
+    padding-left: 20px;
+}
+.right{
+    float: right;
+    padding-right: 20px;
+}
+ #basement{
+     text-align: center;
+     background: gray;
+     text-decoration: underline;    
+        
+ }
+ .basementFix{
+    display: block;
+    bottom: 0px;
+    position: fixed;
+    width: -webkit-fill-available;
+ }
+.foot{
+    margin-bottom: 0px !important;
+    
+}
+
+
+
+@media screen and (min-width: 640px) {
+   .navHeader{
+    display: block;    
+   }  
+    .aboutMe{
+        clear: both;
+    }
+    .navLink{        
+        font-weight: 600;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .navDiv{
+       background-color: #f8f9fa;
+       line-height: normal;
+       box-shadow: 0px -1px 8px black;
+        
+    }
+    .navHeader{
+        padding-bottom: inherit;
+        
+    }
+    h1{
+        font-size: xx-large !important;
+    }
+    .mainContact{
+        margin-top: 15px;     
+        box-shadow: -2px 4px 9px 0px black;   
+        /* margin-left: 15px !important;  */
+        /* margin-right: 15px !important; */
+        padding-right: 10px;    
+        display: block;       
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 20px !important;
+    }
+    .mainDiv{
+        margin-right: 30px;
+    }
+  }
