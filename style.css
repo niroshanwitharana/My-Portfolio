@@ -9,7 +9,7 @@
     background: white;
 }
 .navHeader{
-    background-color: cornflowerblue;
+    background-color: #42516c;
     color: white;
     display: inline;
     text-align: center;
@@ -32,13 +32,24 @@ a:hover {
 }
 .navbar{
     padding: 0px !important;
+    background-image: url(./images/1_80Ofj1rQvBRC9rB7pu_BWw.jpeg) !important;
 }
 
 .navbar-light .navbar-brand {
-   color: cornflowerblue !important;
+   color: #42516c !important;
 }
 .navFix{
     margin-bottom: 0px !important;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navPort1{
+    float: left;
+}
+.navPort3{
+    float: right;
 }
 
 /* main styling */
@@ -62,14 +73,19 @@ h5{
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(./images/abstract-web-developer-background-blue.jpg);
 }
 .aboutMeH4{
-    color: cornflowerblue;  
+    color: white;  
     padding-bottom: 20px;    
 }
 .aboutDiv{
     float: left;
     margin-right: 10px;
+    color: #42516c !important;
+}
+ul li a{
+    color: #42516c;
 }
 .mainDiv{
     border: 2px solid;
@@ -80,6 +96,13 @@ h5{
     border-color: lightblue;
     padding: 10px;
     box-shadow: 0 0 8px #1976D2;
+    background-color: white;
+}
+.projectInfo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100% !important;
+    margin-right: 0px !important;
 }
 .info{
     display: none;
@@ -93,11 +116,12 @@ h5{
 .mainContact{
     padding: 10px !important;
     background-color: whitesmoke; 
-    display: inline-block;
+    display: inline-block;    
 }
 body{
     background-color: #d8d5d5 !important;
     height: 100%;
+    background-image: url(./images/262869841.jpg);
     
  }
 
@@ -132,13 +156,23 @@ body{
     margin-right: auto;
 }
 .proName {
-    color: #1976D2;
-    font-size: medium;
+    color: white;
+    font-size: x-large;
     text-align: center;
 }
 .proInfo {
-    color: crimson;
-    font-size: medium;
+    color: #F57C00;
+    font-size: large;
+}
+.proLink {
+    display: block;
+    margin-top: inherit;
+    border-bottom-style: solid;
+    white-space: break-spaces;
+    text-align: center;
+}
+.proLink a{
+    color: red;
 }
 /* contact */
 .contactInfo{
@@ -152,7 +186,7 @@ body{
     border-radius: 10px;
     min-height: 250px;
     border-color: lightblue;    
-    box-shadow: 0 0 8px #1976D2;
+    box-shadow: 0 0 8px #42516c;
     background: white;
 }
 .contactHeader{
@@ -181,8 +215,9 @@ body{
 }
  #basement{
      text-align: center;
-     background: gray;
-     text-decoration: underline;    
+     background: #42516c;
+     text-decoration: underline;   
+     color: white; 
         
  }
  .basementFix{
