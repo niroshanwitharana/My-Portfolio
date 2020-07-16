@@ -149,6 +149,10 @@ body{
 .carousel-inner{
     background-color: rgb(58, 89, 129);
 }
+.carousel-caption{
+    color: black !important;
+}
+
 .portfolio {
     padding-top: 30px;
 }

@@ -36,8 +36,8 @@ $(".inter").on("click", function () {
 
 
 $(document).ready(function(){
-    $('.getgrab, .employeetracker').hide();
-    $('.bookworm').show();
+    $('.bookworm, .employeetracker').hide();
+        $('.getgrab').show();
 });
 function myProject() {
     const project = $('#projectname').val()
