@@ -43,16 +43,28 @@ function myProject() {
     const project = $('#projectname').val()
     console.log(project);
     if (project === 'getgrab') {
-        $('.bookworm, .employeetracker').hide();
+        $('.bookworm, .employeetracker, .riskmanager, .booksearch, .burger').hide();
         $('.getgrab').show();
     }
-    if (project === 'employeetracker') {
-        $('.getgrab, .bookworm').hide();
-        $('.employeetracker').show();
+    if (project === 'riskmanager') {
+        $('.bookworm, .employeetracker, .booksearch, .burger, .getgrab').hide();
+        $('.riskmanager').show();
     }
     if (project === 'bookworm') {
-        $('.getgrab, .employeetracker').hide();
+        $('.employeetracker, .riskmanager, .booksearch, .burger, .getgrab').hide();
         $('.bookworm').show();
+    }
+    if (project === 'burger') {
+        $('.bookworm, .employeetracker, .riskmanager, .booksearch, .getgrab').hide();
+        $('.burger').show();
+    }
+    if (project === 'employeetracker') {
+        $('.bookworm, .riskmanager, .booksearch, .burger, .getgrab').hide();
+        $('.employeetracker').show();
+    }
+    if (project === 'booksearch') {
+        $('.bookworm, .employeetracker, .riskmanager, .burger, .getgrab').hide();
+        $('.booksearch').show();
     }
 };
 
