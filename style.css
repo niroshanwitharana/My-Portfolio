@@ -63,6 +63,7 @@ h5{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+    padding-bottom: 30px;
     
 }
 .about{
@@ -76,8 +77,10 @@ h5{
     background-image: url(./images/abstract-web-developer-background-blue.jpg);
 }
 .aboutMeH4{
-    color: white;  
-    padding-bottom: 20px;    
+    color: black;  
+    padding-bottom: 20px;   
+    font-size: xx-large;
+    text-align: center; 
 }
 .aboutDiv{
     float: left;
