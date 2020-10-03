@@ -36,7 +36,7 @@ $(".inter").on("click", function () {
 
 
 $(document).ready(function(){
-    $('.bookworm, .employeetracker').hide();
+    $('.bookworm, .employeetracker, .riskmanager, .booksearch, .burger').hide();
         $('.getgrab').show();
 });
 function myProject() {
